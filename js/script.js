@@ -3,7 +3,7 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create
 var platforms;
 function preload() {
     //puts assets into phaser cache
-    game.load.path = ("http://localhost/allstariobros/assets/");
+    game.load.path = ("http://localhost/libs/phaser/resources/tutorials/02 Making your first game/assets/");
     game.load.image('sky','sky.png');
     game.load.image('ground', 'platform.png');
     game.load.image('star', 'star.png');
